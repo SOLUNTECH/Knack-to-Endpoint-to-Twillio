@@ -27,7 +27,7 @@ const config = {
         api: {
             $filter: 'env',
             test: 9000,
-            $default: 8080
+            $default: process.env.PORT
         }
     },
     cron: {
